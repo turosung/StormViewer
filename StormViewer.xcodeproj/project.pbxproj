@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84B8AAB2A1D957C003B2104 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A84B8AAA2A1D957C003B2104 /* README.md */; };
 		A89A9ABC2A19888D00FCAB24 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89A9AB22A19888D00FCAB24 /* nssl0049.jpg */; };
 		A89A9ABD2A19888D00FCAB24 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89A9AB32A19888D00FCAB24 /* nssl0046.jpg */; };
 		A89A9ABE2A19888D00FCAB24 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A89A9AB42A19888D00FCAB24 /* nssl0091.jpg */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A84B8AAA2A1D957C003B2104 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A89A9AB22A19888D00FCAB24 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		A89A9AB32A19888D00FCAB24 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
 		A89A9AB42A19888D00FCAB24 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				A8FEB4B12A136BD200EC094A /* Assets.xcassets */,
 				A89A9AB12A19888D00FCAB24 /* Content */,
 				A8FEB4B62A136BD200EC094A /* Info.plist */,
+				A84B8AAA2A1D957C003B2104 /* README.md */,
 			);
 			path = StormViewer;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				A89A9AC12A19888D00FCAB24 /* nssl0041.jpg in Resources */,
 				A89A9AC22A19888D00FCAB24 /* nssl0042.jpg in Resources */,
 				A8FEB4B52A136BD200EC094A /* LaunchScreen.storyboard in Resources */,
+				A84B8AAB2A1D957C003B2104 /* README.md in Resources */,
 				A8FEB4B22A136BD200EC094A /* Assets.xcassets in Resources */,
 				A89A9ABF2A19888D00FCAB24 /* nssl0045.jpg in Resources */,
 				A8FEB4B02A136BD100EC094A /* Main.storyboard in Resources */,
