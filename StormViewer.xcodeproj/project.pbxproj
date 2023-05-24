@@ -81,6 +81,7 @@
 		A8FEB49C2A136BD100EC094A = {
 			isa = PBXGroup;
 			children = (
+				A84B8AAA2A1D957C003B2104 /* README.md */,
 				A8FEB4A72A136BD100EC094A /* StormViewer */,
 				A8FEB4A62A136BD100EC094A /* Products */,
 			);
@@ -106,7 +107,6 @@
 				A8FEB4B12A136BD200EC094A /* Assets.xcassets */,
 				A89A9AB12A19888D00FCAB24 /* Content */,
 				A8FEB4B62A136BD200EC094A /* Info.plist */,
-				A84B8AAA2A1D957C003B2104 /* README.md */,
 			);
 			path = StormViewer;
 			sourceTree = "<group>";
