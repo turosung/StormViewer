@@ -49,17 +49,23 @@
         <!--Detail View Controller-->
         <scene sceneID="i8H-df-1Ka">
             <objects>
-                <viewController storyboardIdentifier="Detail " id="e9F-si-kNQ" customClass="DetailViewController" customModule="StormViewer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5zc-SX-oDU">
+                <viewController storyboardIdentifier="Detail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e9F-si-kNQ" customClass="DetailViewController" customModule="StormViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="5zc-SX-oDU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-fj-KDb">
                                 <rect key="frame" x="0.0" y="-10" width="393" height="846"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                </accessibility>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nGP-W7-Aq4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" image="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="pCy-fj-KDb" firstAttribute="centerX" secondItem="5zc-SX-oDU" secondAttribute="centerX" id="EFO-cP-vru"/>
                             <constraint firstAttribute="bottomMargin" secondItem="pCy-fj-KDb" secondAttribute="bottom" constant="-18" id="cab-bs-XZ3"/>
