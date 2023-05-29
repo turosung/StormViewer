@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Picture" textLabel="MQA-7G-klw" style="IBUITableViewCellStyleDefault" id="mWS-eG-26f">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Picture" textLabel="MQA-7G-klw" style="IBUITableViewCellStyleDefault" id="mWS-eG-26f">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mWS-eG-26f" id="AT8-xd-t4u">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MQA-7G-klw">
-                                            <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                            <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
@@ -54,8 +54,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-fj-KDb">
-                                <rect key="frame" x="0.0" y="-10" width="393" height="846"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-fj-KDb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES"/>
                                 </accessibility>
@@ -67,9 +67,11 @@
                             <accessibilityTraits key="traits" image="YES"/>
                         </accessibility>
                         <constraints>
+                            <constraint firstItem="pCy-fj-KDb" firstAttribute="leading" secondItem="nGP-W7-Aq4" secondAttribute="leading" id="4IU-0a-2dq"/>
+                            <constraint firstItem="pCy-fj-KDb" firstAttribute="trailing" secondItem="nGP-W7-Aq4" secondAttribute="trailing" id="6xP-Ck-KIE"/>
+                            <constraint firstItem="pCy-fj-KDb" firstAttribute="top" secondItem="nGP-W7-Aq4" secondAttribute="top" id="DzO-no-BVb"/>
                             <constraint firstItem="pCy-fj-KDb" firstAttribute="centerX" secondItem="5zc-SX-oDU" secondAttribute="centerX" id="EFO-cP-vru"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="pCy-fj-KDb" secondAttribute="bottom" constant="-18" id="cab-bs-XZ3"/>
-                            <constraint firstItem="pCy-fj-KDb" firstAttribute="top" secondItem="5zc-SX-oDU" secondAttribute="topMargin" constant="-69" id="ixk-uB-uVY"/>
+                            <constraint firstItem="pCy-fj-KDb" firstAttribute="bottom" secondItem="nGP-W7-Aq4" secondAttribute="bottom" id="uJr-Du-H5c"/>
                             <constraint firstItem="pCy-fj-KDb" firstAttribute="leading" secondItem="nGP-W7-Aq4" secondAttribute="leading" id="wc8-Hl-IkH"/>
                         </constraints>
                     </view>
