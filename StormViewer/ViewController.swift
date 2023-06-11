@@ -35,7 +35,9 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = pictures[indexPath.row]
+        cell.textLabel?.text = pictures.sorted()[indexPath.row]
+// Challenge: I was able to use the code below to change the Title of the cell to bold, and this overrid the font changes I made in main.storyboard
+//        cell.textLabel?.font = .boldSystemFont(ofSize: 20)
         return cell
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
